@@ -1,0 +1,199 @@
+Assignment 3: pandas
+
+Average values for all species:
+            petal_length  petal_width  sepal_length  sepal_width
+species                                                         
+setosa          1.486527     0.250725      4.999635     3.475225
+versicolor      4.290690     1.345846      5.942616     2.761610
+virginica       5.475172     1.988239      6.354953     3.001511
+
+Median values for all species:
+            petal_length  petal_width  sepal_length  sepal_width
+species                                                         
+setosa          1.464998     0.251564      4.977019     3.460304
+versicolor      4.321910     1.372359      5.917317     2.747044
+virginica       5.512922     1.954197      6.277034     3.019348
+
+Standard deviation values for all species:
+            petal_length  petal_width  sepal_length  sepal_width
+species                                                         
+setosa          0.207064     0.116201      0.323130     0.365322
+versicolor      0.465222     0.185877      0.475391     0.385754
+virginica       0.458861     0.242253      0.573233     0.325909
+
+Correlation matrix for all variables:
+              petal_length  petal_width  sepal_length  sepal_width
+petal_length      1.000000     0.943467      0.752330    -0.515303
+petal_width       0.943467     1.000000      0.738243    -0.459692
+sepal_length      0.752330     0.738243      1.000000    -0.451782
+sepal_width      -0.515303    -0.459692     -0.451782     1.000000
+
+All values for versicolor:
+           sample_id     species  petal_length  petal_width  sepal_length  sepal_width
+0    g4JZlAtiN4mBGyE  versicolor      4.589243     1.306969      5.844006     3.341825
+1    BwWealRi00L4RH1  versicolor      4.836183     1.384244      5.919572     2.624173
+4    8nqRlCsXKJjHafD  versicolor      3.950310     1.224275      6.885232     3.631972
+9    yi19vtGTuYKj4eZ  versicolor      4.268392     1.274064      6.822197     3.141830
+16   vqSnrKjDlQDgjJ5  versicolor      3.320587     1.386333      5.083040     2.979572
+17   kyKhRLVcS0rCv!P  versicolor      4.524713     1.320985      6.096254     2.683841
+18   VusNKl:RCT@OGn7  versicolor      4.472724     0.900011      5.926105     2.562540
+23   RCBCwkJWUHyVwqV  versicolor      3.702690     1.422474      5.968879     2.816125
+26   PQtAlWI8lvfKwjg  versicolor      4.537703     1.415022      6.191170     2.835849
+27   CmPNAjD$OJz8xtz  versicolor      4.345019     1.632500      5.723189     2.632849
+28   dv?P3qdIEdTsXG0  versicolor      4.617983     1.088082      5.993301     2.589790
+30   NQQOaLqpblOQuud  versicolor      4.524106     1.315773      5.883319     2.654913
+31   Kare66K2FihEV93  versicolor      5.391703     1.303533      5.779108     2.705619
+36   O3^muUuTPXgCgBZ  versicolor      3.643753     1.489883      5.474880     2.605839
+38   CK8cRCbPRzdhrQZ  versicolor      4.044254     1.404391      5.776735     2.432078
+39   YlmIpkStw5mWwxr  versicolor      3.778708     1.192518      6.404155     2.175455
+41   uvhivHYmHKkbZbe  versicolor      4.710993     1.434968      6.591512     2.865490
+43   azdzItv7n4Ob4VW  versicolor      3.943089     1.560528      6.269948     2.290974
+45   ybv6JZso4wx5G9S  versicolor      4.452328     1.363420      6.175504     3.117513
+47   GuCsuS1*XYdCoFw  versicolor      4.214592     1.204017      5.181454     2.900854
+52   xOTTfUDOENgKe&8  versicolor      3.866218     1.357120      5.543838     3.264735
+56   MMThFbLqLZNZHmS  versicolor      4.841038     1.154231      6.010525     3.084798
+57   Br4bELwbESkKF8n  versicolor      4.667459     1.426925      6.552825     3.607769
+58   Lg1WLhnMAVEZD:P  versicolor      4.495552     1.258432      5.334831     2.631674
+59   qSgUNnCRqwfjUwQ  versicolor      4.863422     1.056108      6.170961     3.138613
+63   NWclLZbZXUFUwwy  versicolor      3.817670     1.608536      5.746576     2.922592
+66   lLXMVuFWn1U4ULx  versicolor      3.761334     1.413824      5.327977     2.715342
+74   p0OCgbys%FW6v4R  versicolor      4.199052     1.349509      5.653700     2.240386
+84   ?2kdxdAXqj2PgYJ  versicolor      4.695759     1.087892      6.547811     2.590456
+89   ec?KQHUrCStKvKi  versicolor      4.769759     0.935646      4.844688     2.451214
+90   MN%Y!9LRNDRWvX@  versicolor      3.957958     1.542858      5.914479     2.499789
+94   zrAXdMPKBuvDzNV  versicolor      4.472860     1.381298      5.518396     2.947774
+98   JKRMlRaqxUpdB3L  versicolor      4.315051     1.605591      5.915061     2.203196
+102  kGMXXYQocROwxy0  versicolor      3.242209     1.442650      5.753117     3.106281
+104  VPLkQVV6xZwZjM8  versicolor      4.035701     1.348341      5.681804     2.398613
+105  BG6hTyBpU4beVAa  versicolor      4.328770     1.496556      5.793356     3.347275
+107  YkBvRsNxkaMuaqN  versicolor      4.996474     1.274395      5.520372     3.006424
+114  2SZr6cWNlwqfcL!  versicolor      4.966406     0.982861      6.029394     1.704748
+116  HdByHlLq0MzuYv8  versicolor      3.884439     1.408051      5.454765     2.287880
+119  kMuRQIlXRT6yvLe  versicolor      4.344251     1.314602      6.386229     2.898715
+120  ujmKvEdVckY%dah  versicolor      4.152354     1.398115      6.351701     3.281389
+121  :PhwtKDtnxtURYZ  versicolor      4.173586     1.663388      5.764890     2.896254
+122  wsyRYqrFqXVEInH  versicolor      4.612066     1.521692      6.188601     2.812058
+124  tUqUuHPu5wwE9CX  versicolor      4.087612     1.114008      5.330023     3.047786
+137  6XmxRsStMiUUT5y  versicolor      3.559383     1.212959      6.763249     2.778746
+139  vgOa.bKTWVSYrPR  versicolor      4.565926     1.577499      5.973410     2.514029
+142  hFKryyGPPzdH?Po  versicolor      4.114480     1.576381      6.830949     2.625132
+143  WbDHNnODC7DmznT  versicolor      4.076537     1.547323      5.957918     2.907216
+147  KVOgLV6Q#yIYrjY  versicolor      5.106639     1.533397      5.531415     2.214055
+148  wRkfYyPTwUzYYb0  versicolor      3.695471     1.078146      6.748385     2.366439
+
+All values for virginica:
+           sample_id    species  petal_length  petal_width  sepal_length  sepal_width
+2    ZdyiDoTAArjRj3X  virginica      5.510280     1.786967      6.081146     3.040232
+6    fWIrmBqHQtz8xsF  virginica      5.604368     2.157243      6.456809     2.805747
+10   YOUAeEtFDmkZ^Fj  virginica      5.014562     1.963292      6.246692     2.532292
+11   mJXjeWxnNsSFDrT  virginica      5.341064     2.041667      5.103175     3.303154
+14   7eMPKj06G5OvZMj  virginica      5.446387     1.912245      6.996548     3.022570
+15   lsASAgtVjFRU1Qx  virginica      5.016659     1.684219      6.930099     2.986417
+21   BtUCKOq7JvnPlOs  virginica      5.042649     1.954916      5.850027     3.639593
+24   P6vSkw5eLzuitjC  virginica      5.307304     1.782728      6.753320     2.656188
+25   ZrvCi^tjWUU4bEY  virginica      6.791105     2.371837      6.382488     3.248151
+29   bRJfblUTBih4vXZ  virginica      5.699915     2.011020      7.042214     2.808181
+34   uCCSdxHpT@4KB&D  virginica      6.352339     2.346899      5.413269     3.106450
+37   MSpolLlZEykfAPj  virginica      4.581418     1.583535      6.228062     3.180603
+40   VBsso&DLWhoavWN  virginica      4.969316     2.142619      5.908940     3.300371
+42   AYyUNGIOflHwKVz  virginica      6.071931     2.303134      6.181593     3.203286
+44   tBkU17D%pLZu2iq  virginica      5.215450     2.372807      6.031985     3.451475
+49   RCpoVUsSf1lcnsx  virginica      5.053986     1.959596      5.609393     3.173603
+51   F7QQBkULCQWsPPq  virginica      4.990618     1.925223      6.056341     3.414888
+53   kbk8teAExFXRVmo  virginica      5.074888     1.941873      6.684440     2.648808
+55   NCNzLLDGLZ0bFwT  virginica      5.605374     1.921244      5.939928     3.357195
+64   wJbp*SLsgqwqU3h  virginica      5.569802     2.270871      7.965390     2.406774
+65   NXVhqf3jYW5MMIj  virginica      5.662709     1.899545      5.549109     3.338922
+69   VrdbFFaZAUIQHVl  virginica      5.872442     1.676956      6.333824     2.587576
+70   hUPXl9dHXtPj0gy  virginica      6.205756     1.841954      6.141439     3.391971
+71   SylZS8kd9X8DUbH  virginica      4.967788     2.159077      6.215110     3.344309
+78   BKJoXJgMBp8yDIL  virginica      4.140145     1.731601      6.377286     2.847190
+79   DbYlLG7eLvCcUQN  virginica      5.601433     2.221353      5.843000     3.016125
+81   BICKlsaIqOVWeVT  virginica      5.602542     1.759924      6.941976     3.421896
+83   wRtDRvAQhOH4DML  virginica      5.515564     1.866607      5.902312     3.398533
+95   HTkRCaD7EEG&r0y  virginica      5.699212     1.741614      7.123075     3.386529
+97   Ss2wufGNBy5J0CC  virginica      4.799409     1.975306      7.345331     2.568048
+99   cmcq6CbyKmVTud9  virginica      5.325596     2.064293      6.042647     3.303905
+101  kp^foFC3Z1axniM  virginica      5.680877     2.331070      6.062756     3.174406
+103  LMSSELt7DuSVsXB  virginica      5.049579     2.453721      6.618141     3.007292
+106  lTdFg4sli3Pz8wj  virginica      6.248665     1.863559      6.650275     3.159767
+108  lQCueDIqnAItdPv  virginica      5.398051     2.384345      6.689807     2.699263
+110  P5sqfeJ4F8Dokdt  virginica      5.519732     1.699033      6.920229     3.011736
+111  4FDEHair7AeL,rc  virginica      5.939851     1.899553      6.019144     2.920959
+112  jj^HIXhCGHUrxDv  virginica      5.340195     1.543414      7.518594     2.107799
+113  9G?aZNTm2KixCOp  virginica      5.644260     1.903659      6.991826     2.751810
+117  x0mNn4FWnVCefRb  virginica      5.345515     1.859361      6.078405     2.997201
+118  kzkn5q6TioixrLl  virginica      5.258998     1.562653      6.478159     3.035585
+125  NXi3OMZ5eaoDQqy  virginica      5.708417     1.953477      6.065687     2.566642
+126  tf3PjL7r2kawRnj  virginica      5.352663     1.897242      5.283382     3.120246
+127  2PWZqV7Hy^bBUxG  virginica      5.794727     2.404539      6.991067     2.641208
+128  Gma2dDDzpQIwUjr  virginica      5.384332     1.623563      6.091804     2.913723
+130  VwfkCoD9NrrNWWN  virginica      5.424764     2.130797      6.307375     2.936684
+133  EJDJtCKezUPePRJ  virginica      5.769456     2.095059      6.764409     3.050099
+135  EntauMUpL1UxUot  virginica      5.760750     2.270828      6.385079     2.580850
+140  efK7BDnlXr8uCsr  virginica      5.610081     2.127492      5.770217     2.905088
+149  LJKQtCDGGuAeSd,  virginica      5.875653     2.036419      6.384305     2.604220
+
+All values for setosa:
+           sample_id species  petal_length  petal_width  sepal_length  sepal_width
+3    0NqN8AaLZ8jelu^  setosa      1.434607     0.419694      4.036309     3.527450
+5    otVBvvcynjp7UzN  setosa      1.506729     0.325962      5.401327     3.720574
+7    ARwpVhHYWHt9wfY  setosa      1.614061     0.199143      4.903286     3.145444
+8    F5F0rlPyu#7r6qZ  setosa      1.702897     0.095686      5.192556     3.526238
+12   6LRAdYzEePbHx.v  setosa      1.325247     0.395094      5.092465     3.706573
+13   VlZdQIneAs6HWnK  setosa      1.572766     0.124342      4.984532     3.473014
+19   URnphXM&tofspVk  setosa      2.051838     0.438137      4.755796     3.493874
+20   pNDDcwiseh3IIaO  setosa      1.465058     0.302960      4.793554     3.168449
+22   RmyJiI6DvoSRs0h  setosa      1.674745     0.411758      4.679420     3.219741
+32   KJyMLpvdNBdmLTR  setosa      1.713735     0.213645      4.820044     3.771176
+33   .YMSQuwaWaPchGH  setosa      1.519535     0.122096      4.432467     3.195379
+35   VeqxTj7HsOytlDc  setosa      1.386142     0.116933      4.963505     3.115015
+46   ZcmFr4G9gwtUFpH  setosa      1.219058     0.189683      4.918015     4.122686
+48   phLLoXMzigjOK01  setosa      1.385020    -0.003329      4.633569     3.535292
+50   CtcfDpZzV.zUpU#  setosa      1.454252     0.135885      4.834725     3.222121
+54   !bbMXD61MItc2AP  setosa      1.689766     0.244683      5.224875     2.897025
+60   q#pD2AT3PSCsbXq  setosa      1.589088     0.349022      4.956150     2.820965
+61   XcbgpAhaxcGF:TY  setosa      1.384609     0.291975      4.981946     3.906724
+62   k1$h*pkrpRerFKW  setosa      1.418377     0.310781      4.924608     3.225930
+67   KK9EaMpQsrECdpL  setosa      1.839654     0.104653      5.554717     3.584776
+68   IFRBMj@rIwYkuUs  setosa      1.473164     0.160683      5.206872     3.373598
+72   e5PXZ6N^x,fzIVp  setosa      1.516071     0.382429      5.250859     3.429666
+73   BxP0GyckoyhXKHK  setosa      1.364865     0.398908      5.308589     4.129065
+75   HBdZ73PxIebCJqb  setosa      1.434459     0.357316      5.628667     3.662640
+76   qCESJwZSkwHLWHh  setosa      1.464939     0.314173      5.046988     3.269229
+77   UxNgFG8eGUaTcxH  setosa      1.294256     0.270523      4.972092     3.866097
+80   jucilB4DxLHmiIZ  setosa      0.944231     0.056531      4.766986     4.198154
+82   MitzkxJCK4SkgVM  setosa      1.635750     0.235073      5.105746     3.447594
+85   YSgDPqIzi12gdO1  setosa      1.409162     0.213610      5.190801     3.647280
+86   iGHxuqbHuguAPn6  setosa      1.404618     0.045055      5.342463     2.736444
+87   jKFXR9RopGauVrJ  setosa      1.049099     0.246879      4.699628     3.387364
+88   5NrKknveI5GUjCh  setosa      1.796216     0.203324      4.571255     3.315270
+91   UPVhwT9qrxvjLe.  setosa      1.438462     0.328564      4.840697     3.176982
+92   NcDYKGLi76YN7IL  setosa      1.597941     0.443507      5.054490     3.377788
+93   ePT1KDkgrbju23u  setosa      1.349277     0.291200      5.273548     3.841467
+96   vfgAMrTcSf7HFRo  setosa      1.620168     0.500236      5.385517     3.763958
+100  SMZl9NeOMPKfX1t  setosa      1.508840     0.095514      4.331676     4.057337
+109  ZeRvOXuUJHOiLkh  setosa      1.631488     0.342742      5.370047     3.639837
+115  Exh9hqtDXoq7Hfu  setosa      1.399054     0.279011      5.526611     3.995779
+123  xckk*jnElcXwWrg  setosa      1.414573     0.192890      5.041188     4.038302
+129  qccBEqaZanXdnZU  setosa      1.280417     0.264513      4.822291     3.617031
+131  HTr0HkqaFx80QtX  setosa      1.697825     0.208418      4.779587     3.100231
+132  Gr&g0FkDuaVhPRO  setosa      1.466874     0.287815      5.365664     3.924780
+134  Vc98KtQDXFu6mpq  setosa      1.440864     0.259709      4.699599     2.956504
+136  J4EZGDuAsshYBtq  setosa      1.339390     0.249925      5.362417     3.009538
+138  pfQqM6uUambhJHJ  setosa      1.160223     0.140604      4.927126     3.716034
+141  Dg6LkF#AscyVtqZ  setosa      1.585869     0.102380      5.317309     3.225617
+144  XQMFvRW6GC0Fiyf  setosa      1.567989     0.238337      4.918166     3.191486
+145  OdGVCXAogTKYlou  setosa      1.153406     0.253203      5.118126     3.092223
+146  RfhQcCqkgElTdgQ  setosa      1.939653     0.384366      4.672874     3.195519
+
+Species similarity from least to most similar:
+versicolor and virginica: 2.479112049127052
+setosa and versicolor: 5.555882069067318
+setosa and virginica: 7.5551908330181945
+
+
+Explanation of similarity calculation:
+The similarity between species was calculated by comparing the average values of each variable (petal length, petal width, sepal length, and sepal width).
+For each pair of species, the absolute differences in the average values of these variables were summed to get a similarity score.
+The species pairs were then sorted from least similar (highest score) to most similar (lowest score).
